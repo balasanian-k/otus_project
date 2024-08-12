@@ -1,0 +1,213 @@
+2024-02-26 22:30:39,827 INFO c.CourseTilesTest [main] Count course Tiles on page
+2024-02-26 22:46:24,583 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:46:35,034 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:46:46,440 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:46:52,764 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:46:59,489 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:47:11,427 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:47:17,619 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:47:25,641 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:47:35,966 INFO c.CourseTilesTest [main] Checks
+2024-02-26 22:56:39,912 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-02-26 22:56:50,911 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:02,614 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:10,662 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:18,620 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:29,002 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:38,425 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:46,590 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:57:54,042 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 22:58:04,781 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-26 23:03:52,322 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:04:35,063 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-26 23:04:35,117 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:04:35,808 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:05:18,845 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-26 23:05:20,616 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:07:47,867 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:08:31,070 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-26 23:08:31,112 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:08:31,536 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:09:13,383 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-26 23:09:15,083 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:13:18,950 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:14:01,747 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-26 23:14:03,811 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:15:37,414 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:16:20,978 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-26 23:16:21,027 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:20:18,164 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:21:01,024 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-26 23:21:01,072 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:21:51,384 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:22:35,175 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-26 23:22:35,230 INFO e.EventsPageTest [main] Постусловия
+2024-02-26 23:24:33,595 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:25:03,965 INFO e.EventsPageTest [main] Предусловия
+2024-02-26 23:25:47,466 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-26 23:32:13,170 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 12:37:54,308 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 12:38:40,002 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 13:11:49,035 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 13:12:07,820 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 13:12:51,823 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 13:12:51,876 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:02:20,090 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:02:33,921 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 16:02:45,236 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:04:40,056 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:04:48,576 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 16:04:48,660 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:05:32,473 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:05:41,599 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 16:18:31,560 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:18:49,330 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:18:58,576 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 16:18:58,657 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:20:46,760 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:20:54,312 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:20:56,687 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:21:58,504 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:22:06,790 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:26:09,089 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:26:19,645 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:33:56,353 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:34:05,165 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:34:36,250 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:34:47,657 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:34:51,120 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:35:45,120 INFO e.EventsPageTest [main] Предусловия
+2024-02-27 16:35:54,700 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:35:57,836 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 16:49:34,431 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-02-27 16:49:34,763 INFO c.CourseTilesTest [main] PASSED - Проверка количества курсов в разделе Тестирование
+2024-02-27 16:49:44,408 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:50:17,302 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-02-27 16:50:17,619 INFO c.CourseTilesTest [main] PASSED - Проверка количества курсов в разделе Тестирование
+2024-02-27 16:50:28,053 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:50:39,920 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:50:40,036 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:50:48,280 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:50:48,444 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:50:55,033 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:50:55,147 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:51:02,886 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:51:03,006 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:51:14,206 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:51:14,331 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:51:22,018 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:51:22,145 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:51:29,243 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:51:29,398 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:51:37,591 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:51:37,774 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса
+2024-02-27 16:51:44,794 INFO c.CourseTilesTest [main] PASSED - Проверка и просмотр карточки курса
+2024-02-27 16:55:06,640 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 16:55:16,044 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 16:55:18,787 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 17:00:17,513 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 17:00:24,982 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 17:06:42,224 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 17:06:59,344 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 17:07:08,412 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 17:07:10,589 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 17:08:48,398 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 17:08:57,842 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 17:09:01,114 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 17:22:17,779 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 17:22:26,524 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 17:30:42,070 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 17:30:53,411 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 17:30:57,215 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 17:34:01,665 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 17:34:10,804 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 17:34:10,895 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 18:58:10,970 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 18:59:01,213 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 18:59:01,260 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:02:45,034 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:03:30,304 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 19:03:30,345 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:04:01,746 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:04:45,558 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 19:04:56,729 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:05:51,862 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:06:35,254 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 19:06:46,288 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:08:28,974 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:09:12,222 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 19:09:13,347 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:12:14,268 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:12:57,606 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-02-27 19:13:39,256 INFO e.EventsPageTest [main] PASSED
+2024-02-27 19:13:39,258 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:14:43,934 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:15:27,179 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:15:29,533 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:25:05,684 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:25:50,211 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:32:39,605 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:33:23,099 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:33:25,079 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:34:12,220 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:34:57,063 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:34:59,671 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 19:36:05,860 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:36:50,459 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:48:47,756 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:49:15,932 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:50:15,885 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 19:50:20,571 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 19:51:02,066 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 20:15:22,674 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 20:16:09,147 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 20:16:12,412 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 20:22:45,667 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 20:22:50,222 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 20:41:59,238 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 20:42:44,486 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 20:42:46,219 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 20:51:48,221 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 20:52:32,398 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 20:52:33,369 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 20:56:22,551 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 20:57:06,380 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 20:57:07,703 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 21:00:24,383 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 21:01:06,921 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 21:01:11,478 INFO e.EventsPageTest [main] Постусловия
+2024-02-27 21:03:52,102 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-27 21:04:37,175 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-27 21:04:38,980 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 09:11:50,353 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 09:12:40,884 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 09:12:42,742 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 09:16:27,950 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 09:17:12,116 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 09:45:47,056 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 10:22:45,088 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 10:23:33,040 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 10:23:34,564 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 10:31:35,097 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 10:32:18,697 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 10:32:19,884 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 18:01:25,723 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 18:02:12,253 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 18:02:13,724 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 18:05:01,382 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 18:05:46,958 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 18:06:59,945 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 18:07:10,616 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 18:07:21,044 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 18:07:38,520 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 18:08:21,168 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 18:08:23,281 INFO e.EventsPageTest [main] PASSED
+2024-02-28 18:08:23,288 INFO e.EventsPageTest [main] Постусловия
+2024-02-28 18:10:14,605 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-02-28 18:10:59,185 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-02-28 18:11:01,396 INFO e.EventsPageTest [main] PASSED
+2024-02-28 18:11:01,403 INFO e.EventsPageTest [main] Постусловия
+2024-08-12 18:20:21,974 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-08-12 18:21:05,706 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
+2024-08-12 18:21:06,648 INFO e.EventsPageTest [main] PASSED
+2024-08-12 18:21:06,651 INFO e.EventsPageTest [main] Соблюдение постусловий
