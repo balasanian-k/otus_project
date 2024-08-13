@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: events.EventsPageTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 87.45 s -- in events.EventsPageTest
