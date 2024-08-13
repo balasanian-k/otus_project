@@ -211,3 +211,9 @@
 2024-08-12 18:21:05,706 INFO e.EventsPageTest [main] Валидация дат предстоящих мероприятий
 2024-08-12 18:21:06,648 INFO e.EventsPageTest [main] PASSED
 2024-08-12 18:21:06,651 INFO e.EventsPageTest [main] Соблюдение постусловий
+2024-08-12 20:32:04,137 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-08-12 20:32:52,395 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-08-12 20:33:33,490 INFO e.EventsPageTest [main] PASSED
+2024-08-12 20:33:33,492 INFO e.EventsPageTest [main] Соблюдение постусловий
+2024-08-12 20:47:24,125 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-08-12 20:47:24,803 INFO c.CourseTilesTest [main] PASSED

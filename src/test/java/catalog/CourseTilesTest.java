@@ -9,6 +9,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.CatalogPage;
+import pages.LessonPage;
 
 
 import java.io.IOException;
@@ -58,18 +59,28 @@ public class CourseTilesTest {
             String expectedHeader = catalogPage.getCourseNameByIndex(i);
             String expectedCourseDuration = catalogPage.getCourseDuration(i);
 
-            logger.info("Проверка и просмотр карточки курса");
+            logger.info("Проверка и просмотр карточки курса, используя JSOUP");
+
             catalogPage.checkCourseHeaderByIndex(i, expectedHeader);
             catalogPage.checkCourseDescriptionByIndex(i);
             catalogPage.checkCourseDuration(i, expectedCourseDuration);
             catalogPage.checkCourseFormat(i, "Онлайн");
+
             logger.info("PASSED");
         }
 
-//        catalogPage.clickRandomCourseTile();
-//        LessonPage lessonPage = new LessonPage(driver, "");
-//        lessonPage.
 
+        logger.info("Проверка и просмотр рандомно выбранной карточки курса");
+
+        catalogPage.clickRandomCourseTile();
+        LessonPage lessonPage = new LessonPage(driver, "");
+
+        lessonPage.checkRandomCourseHeaderByIndex(i, expectedHeader);
+        lessonPage.checkRandomCourseDescriptionByIndex(i);
+        lessonPage.checkRandomCourseDuration(i, expectedCourseDuration);
+        lessonPage.checkRandomCourseFormat (i, "Онлайн");
+
+        logger.info("PASSED");
 
     }
 }
