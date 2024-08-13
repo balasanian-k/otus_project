@@ -33,10 +33,6 @@ public class CatalogPage extends AbsBasePage {
         );
     }
 
-    public void clickRandomCourseTile() {
-        faker.options().nextElement(courseTiles);
-    }
-
     public String getCourseNameByIndex(int index) {
         return courseTiles.get(--index).findElement(By.xpath(".//h6")).getText();
     }
@@ -58,7 +54,6 @@ public class CatalogPage extends AbsBasePage {
         Document dom = getDomePage(index);
         Element headerPageElement = dom.selectFirst("h1");
 
-//        дописать ошибку
         Assertions.assertEquals(expectedHeader, headerPageElement.text(), "Course header should be %s");
         headerPageElement.text();
     }
@@ -71,23 +66,19 @@ public class CatalogPage extends AbsBasePage {
         }
         Element headerPageElement = elements.get(0);
 
-       //        дописать ошибку
         Assertions.assertFalse(headerPageElement.text().isEmpty(), "Course description should be %s");
     }
 
     public void checkCourseDuration(int index, String expectedDuration) throws IOException {
         Element headerPageElement = getDomePage(index).selectXpath("//div/following-sibling::p[contains(text(), 'месяц')]").get(0);
 
-        //        дописать ошибку
         Assertions.assertEquals(expectedDuration.replaceAll("^.*?·\\s*", ""), headerPageElement.text(), "Course duration should be %s");
     }
 
     public void checkCourseFormat(int index, String format) throws IOException {
         Element courseFormatElement = getDomePage(index).selectXpath(String.format("//p[contains(text(), '%s')]", format)).get(0);
 
-        //        дописать ошибку
         Assertions.assertFalse(courseFormatElement.text().isEmpty(), "Course format should be %s");
 
     }
-
 }

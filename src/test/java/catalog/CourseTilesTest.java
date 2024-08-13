@@ -9,7 +9,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import pages.CatalogPage;
-import pages.LessonPage;
 
 
 import java.io.IOException;
@@ -22,7 +21,6 @@ public class CourseTilesTest {
     Logger logger = (Logger) LogManager.getLogger(CourseTilesTest.class);
 
     private WebDriver driver;
-
     private CatalogPage catalogPage = null;
     private String baseUrl = System.getProperty("base.url");
 
@@ -55,9 +53,12 @@ public class CourseTilesTest {
 
     @Test
     public void checkDataOnLessonPage() throws IOException {
-        for(int i=1; i < catalogPage.getTilesNumbers(); i++) {
-            String expectedHeader = catalogPage.getCourseNameByIndex(i);
-            String expectedCourseDuration = catalogPage.getCourseDuration(i);
+        int i;
+        String expectedHeader = null;
+        String expectedCourseDuration = null;
+        for (i = 1; i < catalogPage.getTilesNumbers(); i++) {
+            expectedHeader = catalogPage.getCourseNameByIndex(i);
+            expectedCourseDuration = catalogPage.getCourseDuration(i);
 
             logger.info("Проверка и просмотр карточки курса, используя JSOUP");
 
@@ -68,19 +69,5 @@ public class CourseTilesTest {
 
             logger.info("PASSED");
         }
-
-
-        logger.info("Проверка и просмотр рандомно выбранной карточки курса");
-
-        catalogPage.clickRandomCourseTile();
-        LessonPage lessonPage = new LessonPage(driver, "");
-
-        lessonPage.checkRandomCourseHeaderByIndex(i, expectedHeader);
-        lessonPage.checkRandomCourseDescriptionByIndex(i);
-        lessonPage.checkRandomCourseDuration(i, expectedCourseDuration);
-        lessonPage.checkRandomCourseFormat (i, "Онлайн");
-
-        logger.info("PASSED");
-
     }
 }

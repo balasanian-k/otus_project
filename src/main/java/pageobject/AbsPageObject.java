@@ -12,14 +12,12 @@ public abstract class AbsPageObject {
     protected WebDriver driver;
     protected Actions actions;
     protected WaitTools waitTools;
-//    protected Faker faker;
 
 
     public AbsPageObject(WebDriver driver) {
         this.driver = driver;
         this.actions = new Actions(driver);
         this.waitTools = new WaitTools(driver);
-//        this.faker = new Faker();
 
         PageFactory.initElements(driver, this);
     }
