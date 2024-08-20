@@ -10,7 +10,7 @@ import java.util.List;
 
 public abstract class AbsBasePage extends AbsCommon {
 
-    private String BASE_URL = System.getProperty("base.url");
+    private String baseUrl = System.getProperty("base.url");
 
     private String path = "";
 
@@ -20,11 +20,11 @@ public abstract class AbsBasePage extends AbsCommon {
     }
 
     public void open() {
-        driver.get(BASE_URL + this.path);
+        driver.get(baseUrl + this.path);
     }
 
     public void open(List<String> queryParams) {
-        String url = BASE_URL + this.path + "?" + String.join("&", queryParams);
+        String url = baseUrl + this.path + "?" + String.join("&", queryParams);
 
         driver.get(url);
     }
