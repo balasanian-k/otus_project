@@ -1,5 +1,6 @@
 package pages;
 
+import data.category.CourseCategoryData;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.Jsoup;
@@ -11,13 +12,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class CatalogPage extends AbsBasePage {
 
     public CatalogPage(WebDriver driver) {
        super(driver, "/catalog/courses");
     }
+
 
     @FindBy(xpath = "//section//div[not(@style)]/a[contains(@href, '/lessons/')][.//h6]")
     private List<WebElement> courseTiles;
@@ -31,6 +35,20 @@ public class CatalogPage extends AbsBasePage {
                 courseTiles.size(),
                 String.format("Number of lessons tiles should be %d", number)
         );
+    }
+
+    public List<String> getCourseCategoryParams(CourseCategoryData category) {
+        List<String> queryParams = new ArrayList<>();
+        queryParams.add(String.format("categories=%s", category.name().toLowerCase(Locale.ROOT)));
+        return queryParams;
+    }
+
+    public void open(List<String> queryParams) {
+        String url = "https://otus.ru/catalog/courses";
+        if (!queryParams.isEmpty()) {
+            url += "?" + String.join("&", queryParams);
+        }
+        driver.get(url);
     }
 
     public String getCourseNameByIndex(int index) {

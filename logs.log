@@ -283,3 +283,88 @@
 2024-08-13 13:10:45,730 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
 2024-08-13 13:11:27,204 INFO e.EventsPageTest [main] PASSED
 2024-08-13 13:11:27,211 INFO e.EventsPageTest [main] Соблюдение постусловий
+2024-08-20 14:49:12,060 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-08-20 14:49:12,474 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 14:49:46,982 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:44:18,480 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-08-20 15:44:18,761 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:44:46,223 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:45:02,139 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:45:02,225 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:45:12,628 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:45:12,675 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:45:22,426 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:45:22,483 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:45:38,250 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:45:38,302 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:45:47,387 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:45:47,452 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:45:58,030 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:45:58,086 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:46:10,764 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:46:10,819 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:46:18,472 INFO c.CourseTilesTest [main] PASSED
+2024-08-20 15:46:18,525 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-20 15:46:28,423 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:11:31,277 INFO c.CourseTilesTest [main] Создание нового экземпляра Webdriver
+2024-08-21 19:11:35,631 INFO c.CourseTilesTest [main] Инициализация объекта CatalogPage с использованием драйвера
+2024-08-21 19:11:38,575 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-08-21 19:11:38,673 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:11:38,677 INFO c.CourseTilesTest [main] Разрываем соединение
+2024-08-21 19:13:52,464 INFO c.CourseTilesTest [main] Создание нового экземпляра Webdriver
+2024-08-21 19:13:55,083 INFO c.CourseTilesTest [main] Инициализация объекта CatalogPage с использованием драйвера
+2024-08-21 19:14:02,446 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:14:17,375 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:14:17,468 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:14:27,487 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:14:27,545 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:14:37,209 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:14:37,256 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:14:48,876 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:14:48,923 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:14:56,348 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:14:56,393 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:15:07,441 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:15:07,490 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:15:19,197 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:15:19,242 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:15:26,796 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:15:26,845 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-21 19:15:38,158 INFO c.CourseTilesTest [main] PASSED
+2024-08-21 19:15:38,179 INFO c.CourseTilesTest [main] Закрываем соединение
+2024-08-28 14:31:03,388 INFO e.EventsPageTest [main] Соблюдение предусловий
+2024-08-28 14:31:49,304 INFO e.EventsPageTest [main] Просмотр мероприятий по типу
+2024-08-28 14:31:51,525 INFO e.EventsPageTest [main] Соблюдение постусловий
+2024-08-28 14:33:17,429 INFO c.CourseTilesTest [main] Создание нового экземпляра Webdriver
+2024-08-28 14:33:20,466 INFO c.CourseTilesTest [main] Инициализация объекта CatalogPage с использованием драйвера
+2024-08-28 14:33:22,651 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-08-28 14:33:22,735 INFO c.CourseTilesTest [main] Закрываем соединение
+2024-08-28 14:33:23,399 INFO c.CourseTilesTest [main] Создание нового экземпляра Webdriver
+2024-08-28 14:33:26,302 INFO c.CourseTilesTest [main] Инициализация объекта CatalogPage с использованием драйвера
+2024-08-28 14:33:28,661 INFO c.CourseTilesTest [main] Закрываем соединение
+2024-08-28 14:37:32,620 INFO c.CourseTilesTest [main] Создание нового экземпляра Webdriver
+2024-08-28 14:37:35,236 INFO c.CourseTilesTest [main] Инициализация объекта CatalogPage с использованием драйвера
+2024-08-28 14:37:37,473 INFO c.CourseTilesTest [main] Проверка количества курсов в разделе Тестирование
+2024-08-28 14:37:37,540 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:37:37,546 INFO c.CourseTilesTest [main] Закрываем соединение
+2024-08-28 14:37:38,177 INFO c.CourseTilesTest [main] Создание нового экземпляра Webdriver
+2024-08-28 14:37:40,673 INFO c.CourseTilesTest [main] Инициализация объекта CatalogPage с использованием драйвера
+2024-08-28 14:37:46,993 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:38:02,407 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:38:02,471 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:38:12,496 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:38:12,602 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:38:25,433 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:38:25,509 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:38:37,585 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:38:37,648 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:38:46,258 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:38:46,448 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:39:00,479 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:39:00,613 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:39:13,585 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:39:13,656 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:39:29,039 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:39:29,113 INFO c.CourseTilesTest [main] Проверка и просмотр карточки курса, используя JSOUP
+2024-08-28 14:39:41,139 INFO c.CourseTilesTest [main] PASSED
+2024-08-28 14:39:41,150 INFO c.CourseTilesTest [main] Закрываем соединение

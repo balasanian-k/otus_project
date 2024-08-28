@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="events.EventsPageTest" time="87.454" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="catalog.CourseTilesTest" time="130.354" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="base.url" value="https://otus.ru"/>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\KBalasanyan\.cache\selenium\chromedriver\win64\125.0.6422.141\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\KBalasanyan\.cache\selenium\chromedriver\win64\127.0.6533.119\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.7.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
@@ -20,10 +20,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.2.4 clean test -DforkCount=0 -Dtest=EventsPageTest#selectSortedType"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2023.2.4 clean test -DforkCount=0 -Dtest=CourseTilesTest"/>
     <property name="jdk.debug" value="release"/>
     <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\plugins\maven\lib\maven3"/>
-    <property name="test" value="EventsPageTest#selectSortedType"/>
+    <property name="test" value="CourseTilesTest"/>
     <property name="surefire.test.class.path" value="C:\Users\KBalasanyan\IdeaProjects\project\target\test-classes;C:\Users\KBalasanyan\IdeaProjects\project\target\classes;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.23.1\selenium-java-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.23.1\selenium-api-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.23.1\selenium-chrome-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.23.1\selenium-chromium-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.23.1\selenium-json-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.23.1\selenium-manager-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.23.1\selenium-devtools-v125-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.23.1\selenium-devtools-v126-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v127\4.23.1\selenium-devtools-v127-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.23.1\selenium-devtools-v85-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.23.1\selenium-edge-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.23.1\selenium-firefox-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.23.1\selenium-http-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.23.1\selenium-ie-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.23.1\selenium-remote-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\com\google\guava\guava\33.2.1-jre\guava-33.2.1-jre.jar;C:\Users\KBalasanyan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\KBalasanyan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\KBalasanyan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\KBalasanyan\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\KBalasanyan\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\KBalasanyan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-api\1.40.0\opentelemetry-api-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-context\1.40.0\opentelemetry-context-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.40.0\opentelemetry-exporter-logging-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.40.0\opentelemetry-sdk-common-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.40.0\opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.40.0\opentelemetry-sdk-extension-autoconfigure-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.40.0-alpha\opentelemetry-api-incubator-1.40.0-alpha.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.40.0\opentelemetry-sdk-trace-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.40.0\opentelemetry-sdk-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.40.0\opentelemetry-sdk-metrics-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.40.0\opentelemetry-sdk-logs-1.40.0.jar;C:\Users\KBalasanyan\.m2\repository\net\bytebuddy\byte-buddy\1.14.18\byte-buddy-1.14.18.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.23.1\selenium-os-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.23.1\selenium-safari-driver-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.23.1\selenium-support-4.23.1.jar;C:\Users\KBalasanyan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\KBalasanyan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\KBalasanyan\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\KBalasanyan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KBalasanyan\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\KBalasanyan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\KBalasanyan\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\KBalasanyan\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\KBalasanyan\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\KBalasanyan\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\KBalasanyan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\KBalasanyan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\KBalasanyan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\KBalasanyan\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\KBalasanyan\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\KBalasanyan\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\KBalasanyan\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\KBalasanyan\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\KBalasanyan\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\KBalasanyan\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\KBalasanyan\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\KBalasanyan\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\KBalasanyan\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\KBalasanyan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\KBalasanyan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\KBalasanyan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\KBalasanyan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\KBalasanyan\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\KBalasanyan"/>
@@ -47,6 +47,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="sun.net.http.allowRestrictedHeaders" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\plugins\maven\lib\maven-event-listener.jar"/>
     <property name="localRepository" value="C:\Users\KBalasanyan\.m2\repository"/>
@@ -70,15 +71,60 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="selectSortedType" classname="events.EventsPageTest" time="86.146">
-    <system-out><![CDATA[[13:10:01.992] | INFO  | main                             | EventsPageTest                   | Соблюдение предусловий
-[13:10:45.730] | INFO  | main                             | EventsPageTest                   | Просмотр мероприятий по типу
-[13:11:27.204] | INFO  | main                             | EventsPageTest                   | PASSED
-[13:11:27.211] | INFO  | main                             | EventsPageTest                   | Соблюдение постусловий
+  <testcase name="lessonsTileNumbers" classname="catalog.CourseTilesTest" time="5.569">
+    <system-out><![CDATA[[14:37:32.620] | INFO  | main                             | CourseTilesTest                  | Создание нового экземпляра Webdriver
+[14:37:35.236] | INFO  | main                             | CourseTilesTest                  | Инициализация объекта CatalogPage с использованием драйвера
+[14:37:37.473] | INFO  | main                             | CourseTilesTest                  | Проверка количества курсов в разделе Тестирование
+[14:37:37.540] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:37:37.546] | INFO  | main                             | CourseTilesTest                  | Закрываем соединение
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="checkDataOnLessonPage" classname="catalog.CourseTilesTest" time="123.621">
+    <system-out><![CDATA[[14:37:38.177] | INFO  | main                             | CourseTilesTest                  | Создание нового экземпляра Webdriver
+[14:37:40.673] | INFO  | main                             | CourseTilesTest                  | Инициализация объекта CatalogPage с использованием драйвера
+[14:37:46.993] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:38:02.407] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:38:02.471] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:38:12.496] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:38:12.602] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:38:25.433] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:38:25.509] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:38:37.585] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:38:37.648] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:38:46.258] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:38:46.448] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:39:00.479] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:39:00.613] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:39:13.585] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:39:13.656] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:39:29.039] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:39:29.113] | INFO  | main                             | CourseTilesTest                  | Проверка и просмотр карточки курса, используя JSOUP
+[14:39:41.139] | INFO  | main                             | CourseTilesTest                  | PASSED
+[14:39:41.150] | INFO  | main                             | CourseTilesTest                  | Закрываем соединение
+]]></system-out>
+    <system-err><![CDATA[авг. 28, 2024 2:39:41 PM org.openqa.selenium.remote.http.WebSocket$Listener onError
+WARNING: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1170)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:833)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:230)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:303)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:256)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:774)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:957)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934)
+
 ]]></system-err>
   </testcase>
 </testsuite>

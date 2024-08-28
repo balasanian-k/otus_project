@@ -18,27 +18,27 @@ import java.util.Locale;
 
 public class CourseTilesTest {
 
-    Logger logger = (Logger) LogManager.getLogger(CourseTilesTest.class);
+    Logger logger = LogManager.getLogger(CourseTilesTest.class);
 
     private WebDriver driver;
     private CatalogPage catalogPage = null;
-    private String baseUrl = System.getProperty("base.url");
 
     @BeforeEach
     public void init() {
+        logger.info("Создание нового экземпляра Webdriver");
         this.driver = new DriverFactory().create();
-        driver.get(baseUrl);
 
-        List<String> queryParams = new ArrayList<>();
-        queryParams.add(String.format("categories=%s", CourseCategoryData.TESTING.name().toLowerCase(Locale.ROOT)));
-
+        logger.info("Инициализация объекта CatalogPage с использованием драйвера");
         this.catalogPage = new CatalogPage(driver);
+
+        List<String> queryParams = catalogPage.getCourseCategoryParams(CourseCategoryData.TESTING);
         catalogPage.open(queryParams);
     }
 
     @AfterEach
     public void close() {
         if(this.driver !=null) {
+            logger.info("Закрываем соединение");
             this.driver.close();
             this.driver.quit();
         }

@@ -13,7 +13,7 @@ import pages.SchedulePage;
 
 public class EventsPageTest {
 
-    Logger logger = (Logger) LogManager.getLogger(EventsPageTest.class);
+    Logger logger = LogManager.getLogger(EventsPageTest.class);
 
     private WebDriver driver;
 
